@@ -1,0 +1,55 @@
+.grid-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* border:2px green solid; */
+  }
+  
+  .grid-col-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* border:2px red solid; */
+  }
+  
+  .status-title {
+    margin: 0 7px;
+    font-size: 1.1rem;
+  }
+  
+  .empty-state {
+    color: #545454;
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-plus,
+  .icon-dots {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-plus {
+    background-image: url('../../icons_FEtask/add.svg'); /* Replace with your plus icon path */
+  }
+  
+  .icon-dots {
+    background-image: url('../../icons_FEtask/3dotmenu.svg'); /* Replace with your dots icon path */
+  }
+  
+  .curp {
+    cursor: pointer;
+  }
+  

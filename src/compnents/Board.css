@@ -1,0 +1,15 @@
+.main-board {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 98vw;
+    /* width: min-content;
+    min-width: fit-content ; */
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: auto;
+    /* justify-content: center; */
+  }
+  

@@ -1,0 +1,75 @@
+.card-container {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  .card-container span {
+    color: #70747a;
+    font-weight: 200;
+    font-size: 0.9rem;
+  }
+  .box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-container h3 {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .card-container p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    border: rgba(204, 205, 207, 255) solid 1px;
+    border-radius: 0.2rem;
+    /* display: inline; */
+    margin-right: 4px;
+    padding: 0.2rem;
+  }
+  .stylep {
+    margin-right: 5px;
+  }
+  
+  .bx-dots-vertical-rounded,
+  .bx-signal-1,
+  .bx-signal-2,
+  .bx-signal-3,
+  .bxs-message-alt-error {
+    color: #bec2c8;
+  }
+  
+  /* Priority specific styles */
+  .bxs-message-alt-error {
+    color: #fc7840;
+  }
+  
+  /* Status specific styles */
+  .bxs-error-circle {
+    color: #ff5f56;
+  }
+  
+  .bx-circle {
+    color: #e2e2e2;
+  }
+  
+  .bx-loader-circle {
+    color: #f1ca4b;
+  }
+  
+  .bxs-check-circle {
+    color: #5e6ad2;
+  }
+  
+  .bxs-x-circle {
+    color: #94a2b3;
+  }

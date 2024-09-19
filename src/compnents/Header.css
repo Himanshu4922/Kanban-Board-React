@@ -1,0 +1,49 @@
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .header-main {
+    background-color: #ffffff;
+    display: flex;
+    height: 9vh;
+    padding: 0.5rem 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header-nav {
+    max-width: 100%;
+    display: flex;
+  }
+  .displaybx {
+    display: flex;
+    height: 1.8rem;
+    align-items: center;
+    padding: 0 0.7rem;
+    justify-content: space-between;
+    border: rgba(204, 205, 207, 255) solid 1px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: filter 300ms;
+  }
+  .displaybx:hover {
+    filter: brightness(1.2);
+  }
+  /* .icon-x {
+    background: url('/path-to-your-icon/bx-x.png') no-repeat;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+} */
+
+.icon-chevron-down {
+    background: url('../icons_FEtask/down.svg') no-repeat;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+}
+
+/* .icon-filter-alt {
+    background: url('/path-to-your-icon/bx-filter-alt.png') no-repeat;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+} */

@@ -1,0 +1,30 @@
+.drop-down {
+    position: absolute;
+    top: 58px;
+    width: 300px;
+    background-color: #ffffff;
+    border: rgba(204, 205, 207, 255) solid 1px;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .drop-down-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+  .drop-down-item p {
+    color: #626262;
+  }
+  .drop-down-item select {
+    width: 40%;
+    background-color: white;
+    height: 1.8rem;
+    border-radius: 0.4rem;
+    padding: 0.1rem 0.5rem;
+  }
+  

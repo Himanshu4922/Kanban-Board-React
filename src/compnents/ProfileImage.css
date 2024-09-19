@@ -1,0 +1,42 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+}
+
+
+.user-profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #2b963a;
+    border-radius: 50%;
+    color: #ffffff;
+
+  }
+
+
+  /* .available {
+    background-color: red;
+    height: 8px;
+    width: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    left: 17px;
+  } */
+  .available {
+    background-color: red;
+    height: 8px;
+    width: 8px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 9px;
+    bottom: 8px;
+   
+  }

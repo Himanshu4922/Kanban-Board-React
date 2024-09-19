@@ -1,0 +1,79 @@
+.grid-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .grid-col-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .status-title {
+    margin: 0 7px;
+    font-size: 1.1rem;
+  }
+  
+  .empty-state {
+    color: #545454;
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Custom icons for each status */
+  .icon-backlog,
+  .icon-todo,
+  .icon-in-progress,
+  .icon-done,
+  .icon-canceled,
+  .icon-plus,
+  .icon-dots {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-backlog {
+    background-image: url('../../icons_FEtask/Backlog.svg'); /* Replace with your backlog icon path */
+  }
+  
+  .icon-todo {
+    background-image: url('../../icons_FEtask/To-do.svg'); /* Replace with your todo icon path */
+  }
+  
+  .icon-in-progress {
+    background-image: url('../../icons_FEtask/in-progress.svg'); /* Replace with your in-progress icon path */
+  }
+  
+  .icon-done {
+    background-image: url('../../icons_FEtask/Done.svg'); /* Replace with your done icon path */
+  }
+  
+  .icon-canceled {
+    background-image: url('../../icons_FEtask/Cancelled.svg'); /* Replace with your canceled icon path */
+  }
+  
+  .icon-plus {
+    background-image: url('../../icons_FEtask/add.svg'); /* Replace with your plus icon path */
+  }
+  
+  .icon-dots {
+    background-image: url('../../icons_FEtask/3dotmenu.svg'); /* Replace with your dots icon path */
+  }
+  
+  .curp {
+    cursor: pointer;
+  }
+  

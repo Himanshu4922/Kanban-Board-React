@@ -1,0 +1,90 @@
+.grid-col {
+    /* border: 1px solid #e0e0e0; */
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .grid-col-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .grid-col-head div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-dots,
+  .icon-plus {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .icon-urgent {
+    font-size: 1.2rem;
+    color: #fc7840;
+  }
+  
+  .icon-high,
+  .icon-medium,
+  .icon-low {
+    font-size: 1.2rem;
+  }
+  
+  .no-data-text {
+    color: #545454;
+    font-size: 0.8rem;
+  }
+  .icon-plus {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../icons_FEtask/add.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: rotate(90deg); 
+  }
+  
+  .icon-dots {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../icons_FEtask/3dotmenu.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: rotate(90deg); 
+  }
+  .icon-high {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../icons_FEtask/HighPriority.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .icon-medium {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../icons_FEtask/MediumPriority.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .icon-low {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../icons_FEtask/LowPriority.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
